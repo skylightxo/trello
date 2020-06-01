@@ -1,0 +1,37 @@
+export const statuses = [
+  {
+    name: 'Backlog (Open)',
+    icon: '⭕️',
+    // tasks: [1, 2, 3, 4, 5],
+    bg_color: '#7c888e',
+    header_color: '#9baab2',
+  },
+  {
+    name: 'Selected',
+    icon: '🔆️',
+    // tasks: [],
+    bg_color: '#c7aa38',
+    header_color: '#f9d648',
+  },
+  {
+    name: 'Running',
+    icon: '⚙️',
+    // tasks: [],
+    bg_color: '#a13744',
+    header_color: '#ca4554',
+  },
+  {
+    name: 'Evaluating',
+    icon: '📝',
+    // tasks: [],
+    bg_color: '#3887c6',
+    header_color: '#48a9f8',
+  },
+  {
+    name: 'Live',
+    icon: '✅',
+    // tasks: [],
+    bg_color: '#79a149',
+    header_color: '#98ca5b',
+  },
+];
